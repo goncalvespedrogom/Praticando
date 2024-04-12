@@ -1,1 +1,1 @@
-Aqui contém alguns exercícios simples em que pratiquei no JavaScript.
+Aqui contém alguns exercícios simples que fiz em um curso de JavaScript.
