@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Qual o seu país de origem? <input type="string" name="txtnac" id="txtnac"> 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id = "res">
+
+    </div>
+    <script>
+        
+
+        function calcular() {
+            var txtn = window.document.getElementById('txtnac')
+            var res = window.document.getElementById('res')
+            var vel = String(txtn.value)
+            if (vel == 'Brasil') {
+                res.innerHTML = `<p>Você é <strong>BRASILEIRO(A)</strong>.</p>`
+            } else {
+                res.innerHTML = '<p>Você é <strong>ESTRANGEIRO(A)</strong>.</p>'
+            }
+
+            
+
+        }
+    </script>
+
+
+</body>
+</html>
